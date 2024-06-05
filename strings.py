@@ -1,5 +1,6 @@
-first = 'James'
-last = 'smith'
-message = first + '['+ last + '] is a coder'
-msg = f'{first}  [{last}] is a coder'
-print(msg)
+course = 'Python for beginners'
+print(course.upper())
+print(course.lower())
+print(course.replace('beginners', 'absolute beginners'))
+print(course.find('for'))
+print(course.title())
