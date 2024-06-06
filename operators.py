@@ -1,5 +1,10 @@
-has_good_credit = True
-has_criminal_record = False
+name = "Jonteiru hrvusyvyhuksuwyvb hksu ucnkehivbgey ruksceiobewhivbksnsjkvndhk vjerbrkhsvjvvnhjkdrb vkcnsh"
 
-if has_good_credit and not has_criminal_record :
-    print('Eligible for loan')
+if len(name) < 3 :
+    print("Name must be atleast 3 characters")
+
+elif len(name) > 50 :
+    print("Name must be a maximum of 50 characters")
+
+else :
+    print("Name looks good")       
