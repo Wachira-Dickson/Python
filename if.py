@@ -1,9 +1,9 @@
-price = 1000000
-has_good_credit = True
-
-if has_good_credit :
-    down_payment = 0.1 * price
-else :
-    down_payment = 0.2 * price
-
-print(f'Downpayment : ${down_payment}')    
+weight = int(input("Weight: "))
+unit = input("(L)bs or (K)g: ")
+if unit.upper() == 'L':
+    converted = weight * 0.45
+    print(f'You are {converted} kilos')
+else:
+    converted = weight / 0.45
+    print(f'You are {converted} pounds')
+  
