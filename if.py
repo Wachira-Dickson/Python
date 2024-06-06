@@ -1,14 +1,9 @@
-is_hot = False
-is_cold = True
+price = 1000000
+has_good_credit = True
 
-if is_hot:
-    print("It's a hot day")
-    print("Drink plenty of water")
-
-elif is_cold:
-    print("It's a cold day")
-    print("Light a fire")
-
+if has_good_credit :
+    down_payment = 0.1 * price
 else :
-    print("It's a lovely day")
-    print("Have a nice day")        
+    down_payment = 0.2 * price
+
+print(f'Downpayment : ${down_payment}')    
