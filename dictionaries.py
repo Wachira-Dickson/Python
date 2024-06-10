@@ -1,7 +1,11 @@
-customer = {
-       "name" : "Jade Smith ",
-       "age"  : 30, 
-       "is_verified" : True
+phone = input("Phone: ")
+digital_mapping = {
+    "1" : "one",
+    "2" : "two",
+    "3" : "three",
+    "4" : "four"
 }
-customer["birth_date"] = "23, jan 2021"
-print(customer ["birth_date"] )
+output = ""
+for ch in phone:
+    output += digital_mapping.get(ch, "!") +" "
+print(output)    
