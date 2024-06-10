@@ -1,5 +1,5 @@
 customer = {
-       "name" : "John Smith ",
+       "name" : "Jade Smith ",
        "age"  : 30, 
        "is_verified" : True
 }
